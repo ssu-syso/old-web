@@ -20,6 +20,7 @@
 @media screen and (max-width: 882px){
 	.image_newline{
 		float:none !important;
+width:90%;
 	}
 	
 	.table_center{
