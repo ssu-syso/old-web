@@ -3,11 +3,12 @@
 }
 
 @media screen and (max-width: 600px) {
-	.logo_img{
-		left:50%;
-	}
+		.logo{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
 }
-
 
 nav ul {
     list-style-type: none;
