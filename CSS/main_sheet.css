@@ -2,6 +2,12 @@
 	font-family:맑은 고딕;
 }
 
+@media screen and (max-width: 400px) {
+                body { background-color: red; }
+                h1 { color: white; }
+            }
+
+
 nav ul {
     list-style-type: none;
     margin: 0;
