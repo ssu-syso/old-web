@@ -1,27 +1,70 @@
 <!doctype html>
 <html>
+
 	<head>
+	
 		<title>SSU-Syso</title>
+		
 		<meta charset="utf-8"/>
-		<link rel="icon" href="syso_favicon.ico"/>
-		<link rel="stylesheet" href="main_stylesheet.css"/>
+		<link rel="stylesheet" href="CSS/main_sheet.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="CSS/w3.css">
+		
 	</head>
+	
 	<body>
+	
 			<header>
-				<img />
-				<p>Delicious Syso</p>
-				<p>Tastes like chicken</p>
-				<li>
-					<ul><a href = "index.html">Home</a></ul>
-					<ul><a href = "about_syso.html">About</a></ul>
-					<ul><b>Board</b></ul>
-					<ul><a href="contact_us.html">Contact Us</a></ul>
-				</li>
+					<a href = "/"><img src="logo/syso.png" class="logo"/></a>
+					<!-- <p class="main_text" style="padding-left:1%;"><b>Delicious Syso</b></p>
+					<p class="main_sub_text" style="padding-left:3%;">Tastes like chicken</p> -->
+				
+				<nav>
+					<ul>
+						<li><a href = "index.html">Home</a></li>
+						<li><a href = "about_syso.html">About</a></li>
+						<li><a href = "current_member.html">Syso Family</a></li>
+						<li><a href= "board.html" class="active">Achievements</a></li>
+						<li><a href="contact_us.html">Contact Us</a></li>
+					</ul>
+				</nav>
+				
 			</header>
-			<section>
+			
+			<section style="padding-left:1%;">
+			
 				<article>
+
+						<p>No contents to display.</p>
 					
 				</article>
+				
 			</section>
+			
+			<footer class="footer_style">
+				<center>
+				<p class="font_size_small">숭실대학교 스마트시스템소프트웨어 소모임 시소</p>
+				<button class="button1" onClick = "showHiddenField()">Who made this?</button>
+				</center>
+				<div id="thisIsHiddenField" style="display:none;">
+					<p class="font_size_small">기획, 개발 v1.0 : 15 오인규 <a href = "/v1.0/index.html">v 1.0 방문</a></p>
+					<p class="font_size_small">기획, 개발 v2.0 : 16 범수씨 & 성재씨 <b>v 2.0 현재</b></p>
+					<p class="font_size_small">W3School Slideshow Template, CSS을 적용했음.</p>
+				</div>
+			</footer>
+			
+			<script>
+				function showHiddenField(){
+					if(document.getElementById("thisIsHiddenField").style.display == "block"){
+						document.getElementById("thisIsHiddenField").style.display = "none";
+					}else{
+						document.getElementById("thisIsHiddenField").style.display = "block"
+					}
+					window.scroll(0,window.pageYOffset+100);
+				
+				}
+			</script>
+			
 	</body>
+	
 </html>
