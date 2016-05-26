@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 600px) {
 	.logo_img{
-		text-align:center;
+		margin: auto;
 	}
 }
 
