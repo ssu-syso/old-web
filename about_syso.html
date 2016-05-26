@@ -11,6 +11,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="CSS/w3.css">
 		
+		<style>
+			html, body {width:100%; height:100%;}
+		</style>
+		
 	</head>
 	
 	<body>
@@ -21,8 +25,8 @@
 				
 				<nav>
 					<ul>
-						<li><a href = "index.html" class="active">Home</a></li>
-						<li><a href = "about_syso.html">About</a></li>
+						<li><a href = "index.html">Home</a></li>
+						<li><a href = "about_syso.html" class="active">About</a></li>
 						<li><a href= "board.html">Board</a></li>
 						<li><a href="contact_us.html">Contact Us</a></li>
 					</ul>
@@ -32,34 +36,16 @@
 			
 			<section>
 			
-				<article style="margin:0; padding:0;>
-				
-					<div class="w3-content w3-section">
-
-						<img class="mySlides w3-animate-top" src="sample_img/img0.jpg" style="width:100%">
-						<img class="mySlides w3-animate-bottom" src="sample_img/img1.jpg" style="width:100%">
-						<img class="mySlides w3-animate-top" src="sample_img/img2.jpg" style="width:100%">
-						<img class="mySlides w3-animate-bottom" src="sample_img/img3.jpg" style="width:100%">
-
+				<article style="padding-left:1%;">
+					<div class="inline_image">
+						<img src="sample_img/pi_logo_new.png" class="raspberry_pie"/>
+						<h2>시소(시스템소프트웨어, System Software) 정보</h2> 
+						<ul class="content_ul" >
+							<li>그룹 소속: <a href="http://smartsw.ssu.ac.kr" target="blank">스마트시스템소프트웨어학과</a></li> 
+							<li>그룹 규모: 36명</li>
+							<li>활동 분야: 오픈소스 하드웨어 시스템 개발(아두이노, 라즈베리파이) 
+						</ul>
 					</div>
-
-					<script>
-					var myIndex = 0;
-					carousel();
-
-					function carousel() {
-						var i;
-						var x = document.getElementsByClassName("mySlides");
-						for (i = 0; i < x.length; i++) {
-						   x[i].style.display = "none";  
-						}
-						myIndex++;
-						if (myIndex > x.length) {myIndex = 1}    
-						x[myIndex-1].style.display = "block";  
-						setTimeout(carousel, 5000);    
-					}
-					</script>
-					
 				</article>
 				
 			</section>
