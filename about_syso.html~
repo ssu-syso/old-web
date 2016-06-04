@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+	<head>
+	
+		<title>SSU-Syso</title>
+		
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="CSS/main_sheet.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="CSS/w3.css">
+		
+	</head>
+	
+	<body>
+	
+			<header>
+					<a href = "/"><img src="logo/syso.png" class="logo"/></a>
+					<!-- <p class="main_text" style="padding-left:1%;"><b>Delicious Syso</b></p>
+					<p class="main_sub_text" style="padding-left:3%;">Tastes like chicken</p> -->
+				
+				<nav>
+					<ul>
+						<li><a href = "index.html">Home</a></li>
+						<li><a href = "about_syso.html" class="active">About Us!</a></li>
+						<li><a href = "current_member.html">Syso Family</a></li>
+						<li><a href= "board.html">Achievements</a></li>
+						<li><a href="contact_us.html">Contact Us!</a></li>
+					</ul>
+				</nav>
+				
+			</header>
+			
+			<section>
+				
+				<article style="padding-left:1%;">
+					<table class="table_center">
+							<tr>
+								<td>
+									<img src="sample_img/eat.png" class="image_newline"/>
+									<h2>시소(시스템소프트웨어, System Software) 정보</h2>
+									<ul class="content_ul">
+										<li>그룹 소속: <b>스마트시스템소프트웨어학과<a href="http://smartsw.ssu.ac.kr" target="blank" style="text-decoration:none;">(홈페이지 방문)</a></b></li>
+										<li></li>
+										<li>그룹 규모: 36명</li>
+										<li>활동 분야: 오픈소스 하드웨어 시스템 개발(아두이노, 라즈베리파이)</li>
+									</ul>
+								</td>
+							</tr>
+					</table>
+				</article>
+			</section>
+			
+			<footer class="footer_style">
+				<center>
+				<p class="font_size_small">숭실대학교 스마트시스템소프트웨어 소모임 시소</p>
+				<button class="button1" onClick = "showHiddenField()">Who made this?</button>
+				</center>
+				<div id="thisIsHiddenField" style="display:none;">
+					<p class="font_size_small">기획, 개발 v1.0 : 15 오인규 <a href = "/v1.0/index.html">v 1.0 방문</a></p>
+					<p class="font_size_small">기획, 개발 v2.0 : 16 오★★ & 성재씨 <b>v 2.0 현재</b></p>
+					<p class="font_size_small">W3School Slideshow Template, CSS을 적용했음.</p>
+				</div>
+			</footer>
+			
+			<script>
+				function showHiddenField(){
+					if(document.getElementById("thisIsHiddenField").style.display == "block"){
+						document.getElementById("thisIsHiddenField").style.display = "none";
+					}else{
+						document.getElementById("thisIsHiddenField").style.display = "block"
+					}
+					window.scroll(0,window.pageYOffset+100);
+				
+				}
+			</script>
+			
+	</body>
+	
+</html>
