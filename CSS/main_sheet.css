@@ -33,8 +33,11 @@
 	.table_center{
 		text-align:center;
 	}
+	.content_ul{
+		padding-left:1%;
+	}
 	nav ul li {
-     vertical-align:middle;
+     		vertical-align:middle;
 	}
 }
 
