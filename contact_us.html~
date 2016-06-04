@@ -34,7 +34,7 @@
 				<section style="padding-left:1%;">
 					<article>
 						<h2>Contact Us</h2>
-						<ul class="content_ul">
+						<ul>
 							<li>지도교수: 김강희 (Professor KangHee) </li>
 						</ul>
 						<ul class="content_ul">
@@ -59,10 +59,14 @@
 					</article>
 					<article>
 						<h2>모집 안내</h2>
-							<ul style="list-style-type:circle;">
-								<li>모집 구분: 개발자, 그래픽 디자이너, 웹마스터, 전자 엔지니어</li>
-								<li>모집 대상: 숭실대학교, 서울대학교, 중앙대학교 학생</li>
-							</ul>
+						<ul>
+							<li>
+								<ul>
+									<li>모집 구분: 개발자, 그래픽 디자이너, 웹마스터, 전자 엔지니어</li>
+									<li>모집 대상: 숭실대학교, 서울대학교, 중앙대학교 학생</li>
+								</ul>
+							</li>
+						</ul>
 					</article>
 				</section>
 			
